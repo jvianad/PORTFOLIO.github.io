@@ -519,6 +519,11 @@ html{
     color: #fff;
 }
 
+
+textarea {
+    resize: none;
+}
+
 /*FOOTER*/
 footer{
     background-color: #000;
