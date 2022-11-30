@@ -14,7 +14,7 @@ html{
 
 /******************HEADER************************/
 #inicio{
-    background: linear-gradient(#0E0B16, #111135);
+    background: linear-gradient(#0E0B16, #191950);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -39,7 +39,7 @@ html{
 
 #inicio .contenido header .contenido-header h1{
     text-align: center;
-    color: #ff5080;
+    color: #ef07c4;
 
 }
 
@@ -59,7 +59,7 @@ html{
 }
 
 #inicio .contenido header .contenido-header nav ul a:hover{
-    color: #ff5080;
+    color: #ef07c4;
 }
 
 #inicio .contenido header .contenido-header .redes a{
@@ -72,12 +72,12 @@ html{
 
 #inicio .contenido header .contenido-header .redes a:hover{
     
-    color: #ff5080;
+    color: #ef07c4;
     
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
-    color: #ff5080;
+    color: #ef07c4;
 }
 
 #inicio .contenido .presentacion{
@@ -106,7 +106,7 @@ html{
 
 #inicio .contenido .presentacion h2 span{
     font-size: 45px;
-    color:#ff5080;
+    color:#ef07c4;
     
 }
 
@@ -133,7 +133,7 @@ html{
 }
 
 #inicio .contenido .presentacion a:hover{
-    background-color: #ff5080;
+    background-color: #ef07c4;
     
 }
 
@@ -147,9 +147,9 @@ html{
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
-    color: #d3d3d3;
+    color: #111135;
     display: flex;
-    
+    height: 100vh;
 }
 
 #sobremi .contenedor-foto{
@@ -186,7 +186,7 @@ html{
 }
 
 #sobremi .sobremi h2 span {
-    color: #ff5080;
+    color: #ef07c4;
 }
 
 #sobremi .sobremi h3 {
@@ -216,7 +216,7 @@ html{
 }
 
 #sobremi .sobremi a:hover{
-    background-color: #ff5080;
+    background-color: #ef07c4;
     color: #fff;
 }
 
@@ -226,13 +226,13 @@ html{
 #servicios{
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #191950;
 }
 
 #servicios .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #d3d3d3;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -240,7 +240,7 @@ html{
 
 #servicios .fila{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1100px;
     margin: 30px auto;
 }
@@ -296,7 +296,7 @@ html{
 /*SECCION HABILIDADES*/
 
 .contenedor-skills{
-    background-color: #f3f3f3;
+    background-color: #191950;
     background-position: center center;
     padding: 100px 0;
     text-align: center;
@@ -305,6 +305,23 @@ html{
 .contenedor-skills .skill{
     max-width: 600px;
     margin: 30px auto;
+}
+
+.contenedor-skills h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #d3d3d3;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+.contenedor-skills p{
+    color: #d3d3d3;
+}
+
+.contenedor-skills .porcentaje{
+    color: #d3d3d3;
 }
 
 .contenedor-skills .skill .info{
@@ -318,42 +335,56 @@ html{
     margin-right: 20px;
     height: 10px;
     width: 10px;
-    background-color: #fff;
+    background-color: #f3f3f3;
 }
 
 .contenedor-skills .skill .barra{
-    background-color: #919191;
+    background-color: #d3d3d3;
     width: 100%;
     height: 6px;
     margin: 10px 0;
 }
 
 .contenedor-skills .skill .barra .barra-progreso1{
-    background-color: #fff;
-    width: 95%;
+    background: linear-gradient(to right,#4717F6, #ef07c4);
+    width: 65%;
     height: 6px;
     animation: progreso1 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2{
-    background-color: #fff;
-    width: 75%;
+    background: linear-gradient(to right,#4717F6, #ef07c4);
+    width: 80%;
     height: 6px;
     animation: progreso2 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso3{
-    background-color: #fff;
-    width: 55%;
+    background: linear-gradient(to right,#4717F6, #ef07c4);
+    width: 75%;
     height: 6px;
     animation: progreso3 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso4{
-    background-color: #fff;
-    width: 55%;
+    background: linear-gradient(to right,#4717F6, #ef07c4);
+    width: 75%;
     height: 6px;
     animation: progreso4 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso5{
+    background: linear-gradient(to right,#4717F6, #ef07c4);
+    width: 75%;
+    height: 6px;
+    animation: progreso5 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso6{
+    background: linear-gradient(to right,#4717F6, #ef07c4);
+    width: 80%;
+    height: 6px;
+    animation: progreso6 2s forwards;
 }
 
 /*animaciones de las barras*/
@@ -363,7 +394,7 @@ html{
         width: 0;
     }
     100%{
-        width: 95%;
+        width: 65%;
     }
 }
 
@@ -372,7 +403,7 @@ html{
         width: 0;
     }
     100%{
-        width: 75%;
+        width: 80%;
     }
 }
 
@@ -381,7 +412,7 @@ html{
         width: 0;
     }
     100%{
-        width: 55%;
+        width: 75%;
     }
 }
 
@@ -390,7 +421,25 @@ html{
         width: 0;
     }
     100%{
-        width: 55%;
+        width: 75%;
+    }
+}
+
+@keyframes progreso5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes progreso6{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
     }
 }
 
@@ -405,7 +454,7 @@ html{
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #191950;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -441,7 +490,7 @@ html{
     position: absolute;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #ff5080;
+    color: #ef07c4;
     width: 100%;
     padding: 10px;
     opacity: 0;
@@ -457,7 +506,7 @@ html{
 /*CONTACTO*/
 #contacto{
     padding: 100px 15px;
-    background-color: #f3f3f3;
+    background-color: #191950;
 }
 
 #contacto .titulo-seccion{
@@ -498,7 +547,7 @@ html{
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: #d3d3d3;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -513,7 +562,7 @@ html{
 }
 
 #contacto .btn-enviar:hover {
-    background-color: #ff5080;
+    background-color: #ef07c4;
     color: #fff;
 }
 
@@ -539,7 +588,7 @@ footer a {
 }
 
 footer a:hover{
-    color: #ff5080;
+    color: #ef07c4;
 }
 
 @media screen and (max-width: 800px) {
