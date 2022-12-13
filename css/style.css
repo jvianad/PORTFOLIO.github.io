@@ -448,6 +448,7 @@ html{
     max-width: 1100px;
     padding: 100px 0;
     margin: auto;
+    height: 100vh;
 }
 
 #portfolio .titulo-seccion{
@@ -467,7 +468,7 @@ html{
 }
 
 #portfolio .fila .proyecto{
-    max-width: 400px;
+    max-width: 350px;
     border: 1px solid #000;
     margin: 0 10px;
     position: relative;
@@ -502,6 +503,19 @@ html{
     opacity: 1;
     bottom: 0;
 }
+
+
+.link_portfolio{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link_portfolio:hover{
+    color: #3788ec;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
 
 /*CONTACTO*/
 #contacto{
