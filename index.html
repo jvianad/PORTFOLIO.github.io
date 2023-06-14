@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jean Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="Assets/ico.png" type="image/x-icon">
 </head>
 
 <body>
@@ -24,12 +25,11 @@
         </div>
     </header>
 
-
     <main>
         <section class="seccion-main">
             <div class="card">
                 <div>
-                    <img src="ASSETS/yo.jpg" alt="yo" class="img-yo">
+                    <img src="Assets/yo.jpg" alt="yo" class="img-yo">
                 </div>
                 <div class="titulos">
                     <h1>JEAN VIAÑA DE MARES</h1>
@@ -53,11 +53,10 @@
             <h2>Hola, soy <span>Jean Viaña</span></h2>
             <h3>Desarrollador Backend</h3>
             <p>Soy ingeniero industrial graduado de la Fundacion universitaria Tecnologico Comfenalco con amplia experiencia en temas de gerencia de proyectos y liderazgo.</p>
-            <p>Ademas, fui beneficiario de la beca MisionTIC 2022 del gobierno nacional de Colombia y estudie Programacion en la Universidad Industrial de Santander.</p>
             <p>No tengo experiencia en el area del Backend pero a mi parecer fue la parte mas emocionante de todo el viaje, ademas de los proyectos pequeños que fuimos creando para desarrollar logica de programacion</p>
             <p>Mi meta a corto plazo es conseguir mi primer empleo como desarrollador Backend y a largo plazo es llegar a ser Tech Lead en una empresa y demostrar mis habilidades de trabajo en equipo</p>
             <p>Mis pasatiempos son salir con mis amigos, estudiar programacion todos los dias y salir de pesca</p>
-            <a href="#">Descargar CV</a>
+            <a href="Assets/HV Jean C Viañaa.pdf" target="_blank">Descargar CV</a>
         </div>
     </section>
 
@@ -70,10 +69,10 @@
                 <h4>Desarrollo Backend</h4>
                 <hr>
                 <ul class="servicios-tag">
-                    <li>Node.js</li>
-                    <li>Express</li>
+                    <li>Java</li>
+                    <li>Springboot</li>
+                    <li>API Rest</li>
                 </ul>
-                
             </div>
             <div class="servicio">
                 <span class="icono"><i class="fa-solid fa-code"></i></span>
@@ -81,9 +80,19 @@
                 <hr>
                 <ul class="servicios-tag">
                     <li>MySQL</li>
-                    <li>MongoDB</li>
+                    <li>PostgreSQL</li>
                 </ul>
-                
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programador Freelance</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>Java</li>
+                    <li>Spring</li>
+                </ul>
             </div>
         </div>
 
@@ -101,7 +110,7 @@
     
             <div class="skill">
                 <div class="info">
-                    <p><span class="lista"></span>JavaScript</p>
+                    <p><span class="lista"></span>Java</p>
                     <span class="porcentaje">80%</span>
                 </div>
                 <div class="barra">
@@ -111,7 +120,7 @@
     
             <div class="skill">
                 <div class="info">
-                    <p><span class="lista"></span>Node.js | Express | API rest</p>
+                    <p><span class="lista"></span>Spring | Springboot | API rest</p>
                     <span class="porcentaje">75%</span>
                 </div>
                 <div class="barra">
@@ -121,7 +130,7 @@
     
             <div class="skill">
                 <div class="info">
-                    <p><span class="lista"></span>SQL | MySQL</p>
+                    <p><span class="lista"></span>MySQL | PostgreSQL</p>
                     <span class="porcentaje">75%</span>
                 </div>
                 <div class="barra">
@@ -131,17 +140,7 @@
 
             <div class="skill">
                 <div class="info">
-                    <p><span class="lista"></span>NoSQL | MongoDB</p>
-                    <span class="porcentaje">75%</span>
-                </div>
-                <div class="barra">
-                    <div id="ps" class="barra-progreso5"></div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div class="info">
-                    <p><span class="lista"></span>Git | Github | Gitlab</p>
+                    <p><span class="lista"></span>Git | Github</p>
                     <span class="porcentaje">80%</span>
                 </div>
                 <div class="barra">
@@ -187,29 +186,28 @@
 
     <!--CONTACT-->
     <section id="contacto">
-        <h3 class="titulo-seccion">Contactame ahora</h3>
-        <div class="contenedor-form">
-            <form action="https://formsubmit.co/jeanvianademares@gmail.com" method="POST">
-                <div class="fila mitad">
-                    <input type="text" name="Full-name" placeholder="Nombre Completo" class="input-mitad">
-                    <input type="email" name="Email" placeholder="Direccion de Email" class="input-mitad">
-                </div>
-                <div class="fila">
-                    <input type="text" name="Subject" placeholder="Asunto..." class="input-full">
-                </div>
-                <div class="fila">
-                    <textarea name="Mesage" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
-                </div>
-                
-                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
-            </form>
-        </div>
+            <h3 class="titulo-seccion">Contactame ahora</h3>
+            <div class="contenedor-form">
+                <form action="https://formsubmit.co/jeanvianademares@gmail.com" method="POST">
+                    <div class="fila mitad">
+                        <input type="text" name="Full-name" placeholder="Nombre Completo" class="input-mitad">
+                        <input type="email" name="Email" placeholder="Direccion de Email" class="input-mitad">
+                    </div>
+                    <div class="fila">
+                        <input type="text" name="Subject" placeholder="Asunto..." class="input-full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="Mesage" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
     </section>
 
     <!--FOOTER-->
     <footer>
         <p>Gracias por ver mi portafolio de trabajo</p>
-        <div class="redes">
+        <div class="redes-footer">
             <a href="https://www.facebook.com/profile.php?id=100086846263043" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/vianademares/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://github.com/jvianad" target="_blank"><i class="fa-brands fa-github"></i></a>
