@@ -13,133 +13,91 @@ html{
 
 
 /******************HEADER************************/
-#inicio{
-    background: linear-gradient(#0E0B16, #191950);
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(16, 40, 40);
+    height: 8vh;
+}
+
+.nombre{
+    color: rgb(53, 180, 138);
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    margin: 0 20px;
+}
+
+.navbar a:hover{
+    color: rgb(53, 180, 138);
+    transition: 0.2s all ease;
+}
+
+/*MAIN*/
+.seccion-main{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://pcredcom.com/blog/wp-content/uploads/2020/10/fondos-de-pantalla.jpg);
+    background-position: center;
     background-size: cover;
-    background-position: center center;
-    height: 100vh;
-}
-
-#inicio .contenido header{
-    background-color: rgba(0,0,0,.8);
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    top: 0;
-}
-
-#inicio .contenido header .contenido-header{
-    max-width: 1100px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-#inicio .contenido header .contenido-header h1{
-    text-align: center;
-    color: #ef07c4;
-
-}
-
-#inicio .contenido header .contenido-header nav ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-#inicio .contenido header .contenido-header nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    margin: 0 12px;
-    font-weight: 400;
-    transition: .5s;
+    background-repeat: no-repeat;
+    height: 92vh;
     
+
 }
 
-#inicio .contenido header .contenido-header nav ul a:hover{
-    color: #ef07c4;
-}
-
-#inicio .contenido header .contenido-header .redes a{
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    margin-left: 10px;
-    transition: .5s;
-}
-
-#inicio .contenido header .contenido-header .redes a:hover{
-    
-    color: #ef07c4;
-    
-}
-
-#inicio .contenido header .contenido-header .seleccionado {
-    color: #ef07c4;
-}
-
-#inicio .contenido .presentacion{
-    max-width: 1100px;
-    height: 100vh;
-    margin: auto;
-    color: #fff;
+.card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    margin-top: 20px;
+    height: 32rem;
+    padding: 20px;
+    backdrop-filter: blur(5px);
 }
 
-#inicio .contenido .presentacion .bienvenida{
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+.img-yo{
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid rgb(53, 180, 138);
+    margin-top: 25px;
 }
 
-#inicio .contenido .presentacion h2{
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.redes{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+.redes a{
     font-size: 35px;
-    margin-bottom: 25px;
-    text-align: center;
+    color: white;
+    padding: 10px;
 }
 
-#inicio .contenido .presentacion h2 span{
-    font-size: 45px;
-    color:#ef07c4;
-    
-}
-
-#inicio .contenido .presentacion .descripcion{
-    max-width: 700px;
-    margin: 25px auto;
-    font-size: 18px;
-    text-align: center;
-}
-
-
-#inicio .contenido .presentacion a{
-    text-decoration: none;
-    display: inline-block;
-    margin: 25px;
-    padding: 20px 25px;
-    border: 2px solid #fff;
-    border-radius: 50px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: .5s;
-    
-}
-
-#inicio .contenido .presentacion a:hover{
-    background-color: #ef07c4;
-    
-}
-
-#icono-nav{
-    color: #fff;
-    display: none;
+.redes a:hover{
+    color: rgb(53, 180, 138);
+    transition: 0.5s all ease;
+    font-size: 40px;
 }
 
 /*******************SOBRE MI**********************/
@@ -174,7 +132,7 @@ html{
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: rgb(53, 180, 138);
     text-decoration-thickness: 5px;
 }
 
@@ -186,7 +144,7 @@ html{
 }
 
 #sobremi .sobremi h2 span {
-    color: #ef07c4;
+    color: rgb(53, 180, 138);
 }
 
 #sobremi .sobremi h3 {
@@ -216,7 +174,7 @@ html{
 }
 
 #sobremi .sobremi a:hover{
-    background-color: #ef07c4;
+    background-color: rgb(53, 180, 138);
     color: #fff;
 }
 
